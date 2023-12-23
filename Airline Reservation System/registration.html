@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Central Airlines</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <h1 class="heading">Central Airlines - Customer Registration</h1>
+    <div class="back">
+        <form method="post" action="registerationForm.php" class="form-control">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <label for="">Customer ID</label> 
+                        <br>
+                        <input type="text" class="length" name="custid" placeholder="Customer ID" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">First Name</label> 
+                        <br>
+                        <input type="text" placeholder="First Name" name="fname" required>
+                    </td>
+                    <td>
+                        <label for="">Last Name</label>
+                        <br>
+                        <input type="text" placeholder="Last Name" name="lname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="">Mailing Address</label>
+                        <br>
+                        <input type="text" class="length" placeholder="Mailing Address" name="address" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Phone Number</label>
+                        <br>
+                        <input type="number" name="phone" placeholder="Mailing Address" name="phone" required>
+                    </td>
+                    <td>
+                        <label for="">Email Address</label>
+                        <br>
+                        <input type="email" name="email" placeholder="Email Address" name="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Register" class="submit" required>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings-Central Airlines</title>
+    <link rel="stylesheet" href="bookings.css">
+</head>
+<body>
+    <h1 class="heading">Central Airlines - Bookings</h1>
+    <div class="back">
+        <form method="post" action="" class="form-control">
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Booking Number</label>
+                        <br>
+                        <input name="booking_number" type="text" placeholder="Booking Number" required>
+                    </td>
+                    <td>
+                        <label for="">Customer ID</label>
+                        <br>
+                        <input name="customer_id" type="text" placeholder="Customer ID" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Flight Number</label>
+                        <br>
+                        <input name="flight_number" type="text" placeholder="Flight Number" required>
+                    </td>
+                    <td>
+                        <label for="">Booking City</label>
+                        <br>
+                        <input name="booking_city" type="text" placeholder="Booking City" required>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Booking Date</label>
+                        <br>
+                        <input name="booking_date" type="date" placeholder="Booking Date" required>
+                    </td>
+                    <td>
+                        <label for="">Class</label>
+                        <br>
+                        <select name="class" id="">
+                            <option value="" selected disabled>Select Class</option>
+                            <option value="Business">Business</option>
+                            <option value="Economy">Economy</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Total Price</label>
+                        <br>
+                        <input name="total_price" type="number" placeholder="Total Price">
+                    </td>
+                    <td>
+                        <label for="">Amount Paid</label>
+                        <br>
+                        <input name="anount_paid" type="number" placeholder="Amount Paid">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Payor's Name</label>
+                        <br>
+                        <input name="payors_name" type="text" placeholder="Payor's Name">
+                    </td>
+                    <td>
+                        <label for="">Outstanding Balance</label>
+                        <br>
+                        <input name="outstanding_balance" type="number" placeholder="Outstanding Balance">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input name="" type="submit" value="Register" class="submit" required>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

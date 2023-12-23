@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights-Central Airlines</title>
+    <link rel="stylesheet" href="flight.css">
+    
+</head>
+<body>
+    <h1 class="heading">Central Airlines - Flights</h1>
+    <div class="back">
+        <form method="post" action="flightCheck.php" class="form-control">
+            <table>
+                <tr>
+                    <td>
+                        <label for="">From</label> 
+                        <br>
+                        <div class="custom-select">
+                        <select name="from">
+                            <option disabled selected>Departure City</option>
+                            <option value="Toronto">Toronto</option>
+                            <option value="Montreal">Montreal</option>
+                            <option value="New York">New York</option>
+                            <option value="Chicago">Chicago</option>
+                            <option value="London">London</option>
+                            <option value="Edinburgh">Edinburgh</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Nice">Nice</option>
+                            <option value="Bonn">Bonn</option>
+                            <option value="Berlin">Berlin</option>
+                            
+                        </select>
+                    </div>
+                    </td>
+                    <td>
+                        <label for="">To</label>
+                        <br>
+                        <div class="custom-select">
+                        <select name="to">
+                            <option disabled selected>Arrival City</option>
+                            <option value="Toronto">Toronto</option>
+                            <option value="Montreal">Montreal</option>
+                            <option value="New York">New York</option>
+                            <option value="Chicago">Chicago</option>
+                            <option value="London">London</option>
+                            <option value="Edinburgh">Edinburgh</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Nice">Nice</option>
+                            <option value="Bonn">Bonn</option>
+                            <option value="Berlin">Berlin</option>
+                        </select>
+                    </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Search" class="submit" required>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+      
+</body>
+</html>
